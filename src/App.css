@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* NAV */
+.nav {
+  background: #ff1493;
+  color: white;
+  padding: 15px;
+}
+
+/* CONTENEDOR GENERAL */
+.layout {
+  display: flex;
+  min-height: 400px;
+}
+
+/* ASIDE */
+.sidebar {
+  width: 25%;
+  background: #2f6f6f;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTENIDO PRINCIPAL */
+.mainContent {
+  width: 75%;
+  background: #9acd32;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* RESEÑAS */
+.resena {
+  background: #1e90ff;
+  color: white;
+  padding: 30px;
+}
+
+/* FOOTER */
+.footer {
+  background: #ff4500;
+  color: white;
+  padding: 15px;
+}
